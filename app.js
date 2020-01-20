@@ -4,8 +4,8 @@ const users = require('./routes/api/users');
 const tweets = require('./routes/api/tweets');
 const bodyParser = require('body-parser');
 
-const app = express();
 const db = require('./config/keys').mongoURI;
+const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());

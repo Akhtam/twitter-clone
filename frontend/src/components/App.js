@@ -3,7 +3,7 @@ import { AuthRoute, ProtectedRoute } from '../util/routeUtil';
 import { Switch } from 'react-router-dom';
 import NavBarContainer from './nav/NavbarContainer';
 
-import MainPage from './main/mainPage';
+import MainPage from './main/MainPage';
 import LoginFormContainer from './session/LoginFormContainer';
 import SignupFormContainer from './session/SignupFormContainer';
 
